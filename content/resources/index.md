@@ -43,6 +43,7 @@ editPost:
 
 ## Articles
  - [Noncommutative functional analysis](https://www.math.uh.edu/~dblecher/canisius.pdf), David Bletcher. _A simple introduction to C* algebras for undergrads._
+ - [$\mathcal{R}$ We Living in the Matrix?](https://www.ams.org/journals/notices/201908/rnoti-p1216.pdf), Roy Araiza and Rolando de Santiago.
 
 ## Other Webpages
  - [Operator Algebra Searchable Information Site](https://operatoralgebras.org/)
