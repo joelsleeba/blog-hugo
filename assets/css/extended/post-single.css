@@ -1,11 +1,11 @@
 .page-header,
 .post-header {
-    margin: 24px auto var(--content-gap) auto;
+    margin: var(--firstTitleTopMargin) auto var(--content-gap) auto;
 }
 
 .post-title {
-    margin-bottom: 20px;
-    font-size: 36px;
+    /* margin-bottom: 0.5*var(--titlesize); */
+    font-size: var(--titlesize);
 }
 
 .post-description {
@@ -16,7 +16,7 @@
 .post-meta,
 .breadcrumbs {
     color: var(--secondary);
-    font-size: 15px;
+    font-size: var(--footersize);
 }
 
 .post-meta .i18n_list li {
@@ -44,13 +44,13 @@
 }
 
 .post-content h1 {
-    margin: 30px auto 24px;
+    margin: 40px 0 24px 0;
     font-size: var(--h1size);
 }
 
 .post-content h2 {
-    margin: 32px auto 24px;
-    font-size: 24px;
+    margin: 30px auto 12px;
+    font-size: var(--h2size);
 }
 
 .post-content h3 {
@@ -80,9 +80,9 @@
 .post-meta a,
 .toc a {
     box-shadow: none;
-    border-bottom: 2px solid var(--link-col);
+    border-bottom: 2px solid transparent;
     border-radius: var(--border-radius);
-    color: currentColor;
+    color: var(--link-col);
     transition: var(--link-hover-transition);
 }
 
@@ -90,9 +90,8 @@
 .post-meta a:hover,
 .toc a:hover {
     border-bottom: 2px solid var(--hover-link);
-    color: currentColor; 
 }
-}
+
 
 .post-content a code {
     margin: auto 0;

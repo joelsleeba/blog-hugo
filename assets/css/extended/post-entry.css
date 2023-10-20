@@ -52,7 +52,7 @@
 }
 
 .entry-header h2 {
-    font-size: 20px;
+    font-size: var(--h2size);
     line-height: var(--lineheight);
 }
 

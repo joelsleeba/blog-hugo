@@ -3,11 +3,12 @@
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
-    padding: var(--gap);
+    padding: var(--gap); /* Verify if you actually want this much top padding */
 }
 
 .page-header h1 {
-    font-size: var(--h1size);
+    font-size: var(--titlesize);
+    margin-top: var(--firstTitleTopMargin);
 }
 
 .pagination {
@@ -41,7 +42,7 @@
 }
 
 .social-icons a:hover {
-    color: var(--darkpurple);
+    color: var(--hover-link);
 }
 
 code {

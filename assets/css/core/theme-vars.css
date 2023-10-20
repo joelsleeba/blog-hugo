@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Calluna-Sans;
+  src: url("/fonts/CallunaSans-Regular.otf")format("opentype");
+}
+
+@font-face {
+  font-family: Calluna;
+  src: url("/fonts/Calluna-Regular.otf")format("opentype");
+}
+
 :root {
     --gap: 24px;
     --content-gap: 20px;
@@ -17,23 +27,30 @@
     --hljs-bg: rgb(28, 29, 33);
     --code-bg: rgb(245, 245, 245);
     --border: rgb(238, 238, 238);
-    --darkpurple: #8e7bd0;
+    --darkpurple: #C03050;
     --midpurple: #c0b5e5;
     --accent-col: var(--darkpurple);
     --hover-link: var(--darkpurple);
-    --link-col: var(--gray);
+    --link-col: var(--darkpurple);
+    --link-text-col: var(--midpurple);
     --lightpurple: #e5e1f4;
     --semibold: 500;
-    --homesize: 16px;
-    --textsize: 16px;
-    --h1size: 30px;
-    --entrysize: 15px;
-    --headersize: 15px;
-    --footersize: 12px;
+    --homesize: 19px;
+    --titlesize: 56px;
+    --h1size: 36px;
+    --h2size: 30px;
+    --h3size: 26px;
+    --textsize: 18px;
+    --entrysize: 18px;
+    --headersize: 20px;
+    --footersize: 16px;
     --lineheight: 1.45;
     --lineclamp: 8;
     --marginleft: 26px;
+    --firstTitleTopMargin: 18vh;
     --link-hover-transition: 0.8s cubic-bezier(.19,1,.22,1); /*exponential ease-out*/
+    --head-font: Calluna;
+    --sub-font: Calluna-Sans;
 }
 
 .dark {

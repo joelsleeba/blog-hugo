@@ -10,6 +10,7 @@
 
 .nav a {
     display: block;
+    color: #c35
 }
 
 .logo,
@@ -23,8 +24,9 @@
 }
 
 .logo a {
-    font-size: 24px;
+    font-size: var(--h2size);
     font-weight: 700;
+    font-family: var(--head-font);
 }
 
 .logo a img, .logo a svg {
@@ -62,7 +64,7 @@ body:not(.dark) #sun {
 }
 
 #menu a {
-    font-size: 16px;
+    font-size: var(--textsize);
 }
 
 #menu span{
