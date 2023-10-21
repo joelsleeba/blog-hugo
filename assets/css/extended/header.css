@@ -63,7 +63,7 @@ body:not(.dark) #sun {
     white-space: nowrap;
 }
 
-#menu li + li {
+#menu li {
     margin-inline-start: var(--gap);
 }
 
@@ -130,25 +130,24 @@ body:not(.dark) #sun {
 @media only screen and (max-width: 768px) {
     #menu {
         position: fixed;
-        left: -100vh;
+        left: -150vw;
         top: 5rem;
         flex-direction: column;
         background-color: var(--theme);
-        width: 100%;
-        border-radius: 10px;
+        width: calc(100vw - 2*var(--gap));
+        border-radius: var(--radius);
         text-align: center;
-        transition: 0.3s;
+        transition: var(--link-hover-transition);
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.25);
         z-index: 3;
     }
 
     #menu.active {
-        width:100vw;
-        left: -3.5%;
+        left:0;
     }
 
     /* .nav-item { */
-    /*     margin: 2.5rem 0; */
+    /*     margin: var(--headersize) 0; */
     /* } */
 
     .hamburger {
