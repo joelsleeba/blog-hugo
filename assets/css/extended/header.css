@@ -1,3 +1,7 @@
+.header{
+    border-bottom: 1px solid var(--border);
+}
+
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -103,3 +107,68 @@ body:not(.dark) #sun {
 .logo-switches {
     flex-wrap: inherit;
 }
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 3px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--link-col);
+}
+
+
+
+/* Careful from here */
+
+
+@media only screen and (max-width: 768px) {
+    #menu {
+        position: fixed;
+        left: -100vh;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.25);
+        z-index: 3;
+    }
+
+    #menu.active {
+        width:100vw;
+        left: -3.5%;
+    }
+
+    /* .nav-item { */
+    /*     margin: 2.5rem 0; */
+    /* } */
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: inherit;
+        cursor: pointer;
+        margin: auto var(--gap);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
