@@ -3,13 +3,14 @@
     :root {
         --gap: 14px;
         --homesize: 16px;
-        --titlesize: 40px;
+        --titlesize: 46px;
         --h1size: 30px;
         --h2size: 24px;
         --h3size: 18px;
         --textsize: 14px;
         --entrysize: 14px;
         --headerlogosize: 28px;
+        --headermenusize: 18px;
         --footersize: 11px;
         --descrsize: 11px;
     }

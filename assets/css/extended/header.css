@@ -68,7 +68,7 @@ body:not(.dark) #sun {
 }
 
 #menu a {
-    font-size: var(--textsize);
+    font-size: var(--headermenusize);
 }
 
 #menu span{
