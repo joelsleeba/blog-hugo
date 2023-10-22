@@ -335,28 +335,30 @@
 .post-tags a,
 .share-buttons,
 .paginav {
-    border-radius: var(--radius);
-    background: var(--code-bg);
-    border: 1px solid var(--border);
+  border: 0px transparent;
+  border-bottom: 2px solid transparent;
+  border-radius: var(--border-radius);
+  color: var(--link-col);
+  transition: var(--link-hover-transition);
 }
 
 .post-tags a {
     display: block;
-    padding-inline-start: 10px;
-    padding-inline-end: 10px;
-    color: var(--secondary);
-    font-size: 16px;
-    line-height: 32px;
-    background: var(--code-bg);
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+    color: var(--link-col);
+    font-size: var(--textsize);
+    line-height: var(--lineheight);
+    background: var(--theme);
 }
 
 .post-tags a:hover {
-    background: var(--hover-link);
-    color: var(--)
+    border-bottom: 2px solid var(--hover-link);
+    background: inherit;
 }
 
 .paginav a:hover {
-  background: inherit;
+  border-bottom: 2px solid var(--hover-link);
 }
 
 .share-buttons {

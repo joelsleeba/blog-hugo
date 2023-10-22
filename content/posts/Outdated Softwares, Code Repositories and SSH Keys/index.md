@@ -11,7 +11,7 @@ One day I saw my friend [Ashish Kujur](https://github.com/ashishKujur7) working 
 
 But what is the best thing to do when you are too lazy to carry around your laptop and want to work on public computers without compromising your security? I wanted a good and secure workflow which I could easily setup in any of the Linux machines in the campus.
 
-Being the internet security nerd I am, I didn't want to login to my GitHub account from a computer I don't trust. Can't afford to mess with my online accounts. So I wanted a workaround. What option must I choose than the good old [SSH](https://en.wikipedia.org/wiki/Secure_Shell "An encrypted protocol which provides shell access to remote systems")? I could easily SSH into GitHub and update my repositories. 
+I didn't want to login to my GitHub account from a computer I don't trust. Can't afford to mess with my online accounts. So I wanted a workaround. What option must I choose than the good old [SSH](https://en.wikipedia.org/wiki/Secure_Shell "An encrypted protocol which provides shell access to remote systems")? I could easily SSH into GitHub and update my repositories. 
 
 So I started trying out various techniques from the BSB computer lab at IISER Thiruvananthapuram. This is a summary of what I did in the last 3, 4 days trying to figure out how to access and update my GitHub repositories from the computers in my campus.
 

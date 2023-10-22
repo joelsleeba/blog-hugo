@@ -28,7 +28,7 @@
 }
 
 .logo a {
-    font-size: var(--h2size);
+    font-size: var(--headerlogosize);
     font-weight: 700;
     font-family: var(--head-font);
 }
