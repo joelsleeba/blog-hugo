@@ -54,7 +54,7 @@
 }
 
 .post-content h3 {
-    font-size: 19px;    
+    font-size: var(--h3size);
 }
 
 .post-content h4 {

@@ -4,15 +4,4 @@ date: 2023-10-18T12:26:00
 draft: true
 ---
 
-<!-- ## Banach Algebra -->
-<!-- An **algebra** is a vector space $V$ with an associative multiplication operation which distributes over addition in $V$. That is if $\cdot: V \times V \to V$ is the multiplication operation it should satisfy -->
-<!--   1. $a \cdot (b \cdot c) = (a \cdot b) \cdot c$ -->
-<!--   2. $a \cdot (b + c) = a \cdot b + a \cdot c$ -->
-<!--   3. $(a + b) \cdot c = a \cdot c + b \cdot c$ -->
-<!---->
-<!-- In addition if $V$ is given a norm which is submultiplicative i.e $\\|a b \\| \le \\|a\\|\\|b\\|$ for all $a, b \in V$, we call it a **normed linear algebra**. If this norm is complete in $V$, we call it a **Banach algebra**. -->
-<!---->
-<!-- ## C* algebra -->
-<!-- Let $A$ be an Banach algebra. A function $*: A \to A$ is called an **involution** if: -->
-<!--   1. $(ab)^* = b^* a^*$ -->
-<!--   2. $a^{**} = a$ -->
+Let $\Gamma$ be a group with discrete topology. We define $\ell^2(\Gamma)$ to be the collection of functions $f: \Gamma \to \mathbb{C}$ such that its norm given by inner product $\langle f, g \rangle = \sum_{\gamma \in \Gamma}f(\gamma)\overline{g(\gamma)}$ is finite. Then $\ell^2(\Gamma)$ is a Hilbert space with respect to this inner product. Moreover the functions $\varepsilon_\gamma: \mu \to \delta_{\gamma, \mu}$(Kronecker delta) form a basis for $\ell^2(\Gamma)$. Consider the linear operator $u_\lambda: \ell^2(\Gamma) \to \ell^2(\Gamma)$ which sends $\varepsilon_\gamma \to \varepsilon_{\lambda \gamma}$. Since $(u_\lambda \varepsilon_\gamma)(\mu) = \delta_{\lambda \gamma, \mu}  = \delta_{\gamma, \lambda^{-1} \mu} = \varepsilon_{\gamma}(\lambda^{-1} \mu)$ by linearity it follows that if $f \in \ell^2(\Gamma)$, then $(u_\lambda f)(\gamma) = f(\lambda^{-1} \gamma)$. This will show that $u_\lambda$ is a unitary operator in $\ell^2(\Gamma)$. Moreover $u_\lambda u_\gamma = u_{\lambda \gamma}$. Thus, $\gamma \to u_\gamma$ gives the regular representation of $\Gamma$ in $B(\ell^2(\Gamma))$
