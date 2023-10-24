@@ -71,6 +71,10 @@ body:not(.dark) #sun {
     font-size: var(--headermenusize);
 }
 
+#menu a:last-child {
+    font-size: var(--headermenusize);
+}
+
 #menu span{
   border-radius: var(--border-radius);
   border-bottom: 2px solid transparent;
@@ -122,6 +126,14 @@ body:not(.dark) #sun {
     background-color: var(--link-col);
 }
 
+
+.nav-item{
+    font-feature-settings: "smcp", "c2sc";
+}
+
+.nav-item:last-child{
+    font-feature-settings: "smcp";
+}
 
 
 /* Careful from here */

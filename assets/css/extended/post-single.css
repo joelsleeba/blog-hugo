@@ -348,6 +348,7 @@
     padding-inline-end: 5px;
     color: var(--link-col);
     font-size: var(--textsize);
+    font-feature-settings: "smcp", "c2sc";
     line-height: var(--lineheight);
     background: var(--theme);
 }
