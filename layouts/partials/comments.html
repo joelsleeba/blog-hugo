@@ -8,7 +8,7 @@
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="https://joelsleeba.github.io/giscus/noborder_dark.css"
+        data-theme="https://joelsleeba.github.io/giscus/noborder_light.css"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"
@@ -30,6 +30,15 @@ function changeGiscusTheme (colscheme) {
     }
   });
 }
+
+const mql = window.matchMedia("(prefers-color-scheme: dark)");
+mql.addEventListener("change", () => {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        changeGiscusTheme('dark');
+    } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+        changeGiscusTheme('light');
+    }
+});
 </script>
 
 
@@ -60,16 +69,19 @@ function changeGiscusTheme (colscheme) {
         changeGiscusTheme('light');
     } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         changeGiscusTheme('dark');
+    } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+        changeGiscusTheme('light');
     }
-
 </script>
 {{- end }}
 {{- /* theme-toggle is disabled and theme is auto */}}
 {{- else if (and (ne site.Params.defaultTheme "light") (ne site.Params.defaultTheme "dark"))}}
 <script>
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        changeGiscusTheme('dark');
+        document.querySelector("[data-theme]").setAttribute('data-theme', "https://joelsleeba.github.io/giscus/noborder_dark.css")
     }
-
+    else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+        document.querySelector("[data-theme]").setAttribute('data-theme', "https://joelsleeba.github.io/giscus/noborder_light.css")
+    }
 </script>
 {{- end }}

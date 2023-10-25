@@ -14,7 +14,7 @@
 
 .nav a {
     display: block;
-    color: #c35
+    color: var(--accent-col);
 }
 
 .logo,

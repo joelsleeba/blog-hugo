@@ -32,7 +32,7 @@ params:
   images: ["https://pbs.twimg.com/profile_banners/1591060034175504389/1668176669/1500x500","profile.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # auto, dark, light
-  disableThemeToggle: false
+  disableThemeToggle: true
 
   ShowReadingTime: false
   ShowShareButtons: false
