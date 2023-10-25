@@ -2,6 +2,7 @@
 title: Change of Basis
 date: 2023-10-18T00:57:10
 draft: false
+comments: true
 ---
 Finding the change of basis matrix to convert the matrix form of a linear transformation from one basis to another was hard for me. It still sometimes warps my brain. So I think I will write this down here.
 

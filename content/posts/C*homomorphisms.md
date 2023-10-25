@@ -2,6 +2,7 @@
 title: "States of a C* algebra"
 date: 2023-09-25T23:48:19+05:30
 draft: false
+comments: true
 
 # weight: 1
 # aliases: ["/first"]
