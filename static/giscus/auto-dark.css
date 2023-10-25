@@ -3,6 +3,11 @@
  * https://github.com/primer/primitives/blob/main/LICENSE
  */
 
+@font-face {
+  font-family: Calluna-Sans;
+  src: url("https://joeslleeba.github.io/fonts/CallunaSans-Regular.otf")format("opentype");
+}
+
 main {
   --theme: rgb(255, 255, 255);
   --accent: rgb(204, 51, 85);
