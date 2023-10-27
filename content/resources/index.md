@@ -33,11 +33,12 @@ editPost:
 
 # Functional Analysis and Operator Algebras
 
-## Books
+## Notes and Books
  - [Functional Analysis: Spectral Theory](https://www.imsc.res.in/~sunder/fa.pdf), V. S. Sunder
  - [C* Algebras and Operator Theory](https://g.co/kgs/jo2MVL), Gerald Murphy
  - [An introduction to C*-algebras and the classification programme](https://strung.me/karen/CStarIntroDraft.pdf), Karen R. Strung. _This book gives more intuition to the topics in Murphy. Read first 4 Chapters for a quick intro to the subject._
  - [Fundamentals of the Theory of Operator Algebras](https://g.co/kgs/tRvPCy), Richard Kadison, John Ringrose
+ - [Notes on C* Algebras](https://users.math.msu.edu/users/banelson/conferences/GOALS/notes/Cstar_notes.pdf), Kristin Courtney, Elizabeth Gillaspy
  - [Completely Bounded Maps and Operator Algebras](https://www.cambridge.org/core/books/completely-bounded-maps-and-operator-algebras/47AF05B5F924ADE4FA30770B10050B76), Vern Paulsen. _A second read in operator algebras._
  - [Von Neumann Algebras](https://my.vanderbilt.edu/jonesvf/files/2020/10/vonNeumann2015.pdf), Vaughan F. R. Jones
 
