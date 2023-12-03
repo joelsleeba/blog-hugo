@@ -56,3 +56,7 @@ editPost:
  - [Arch Wiki](https://wiki.archlinux.org/). (bTw, I'm aN ArCh UseR)
  - [Linux From Scratch](https://www.linuxfromscratch.org/). _If you want to truly master the art_
  - [MOOC.fi](https://www.mooc.fi/en) checkout their _Introuduction to Programming_ course hosted every year.
+
+# Other people websites
+- [Arnaldo Rodriguez-Gonzalez](https://aghostinthefigures.com/) _Studying the intersection of mathematics, physical science, and engineering_
+- [Neeldhara Misra](https://www.neeldhara.com)
