@@ -55,7 +55,7 @@ editPost:
  - [Linux Bible](https://g.co/kgs/SW5Jms), Christopher Negus
  - [Arch Wiki](https://wiki.archlinux.org/). (bTw, I'm aN ArCh UseR)
  - [Linux From Scratch](https://www.linuxfromscratch.org/). _If you want to truly master the art_
- - [MOOC.fi](https://www.mooc.fi/en) checkout their _Introuduction to Programming_ course hosted every year.
+ - [MOOC.fi](https://www.mooc.fi/en) checkout their _Introduction to Programming_ course hosted every year.
 
 # Cool people websites
 - [Arnaldo Rodriguez-Gonzalez](https://aghostinthefigures.com/) _Studying the intersection of mathematics, physical science, and engineering_
