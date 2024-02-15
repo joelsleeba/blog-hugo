@@ -1,5 +1,5 @@
 ---
-title: "My Playlists 🎶"
+title: "My Playlists"
 date: 2023-03-05T17:55:41+05:30
 draft: False
 ---

@@ -48,3 +48,5 @@ Now if $A = (a_{ij}) \in M_n(\mathbb{C})$, $$A = \sum_{i, j = 1}^n a_{ij}E_{ij}$
 Also $E_{ii}$ and $E_{jj}$ are unitarily equivalent. Take the change of basis matrix which sends $e_i \leftrightarrow e_j$. Then $f(E_{ii})=f(U^{-1}E_{jj}U)=f(U^{-1}UE_{jj}) = f(E_{jj})$
 
 Hence $f(A) = \sum_{i=1}^n a_{ii}f(E_{ii}) = \lambda \operatorname{tr}(A)$, where $\lambda$ being the appropriate constant.
+
+
