@@ -71,7 +71,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Joel Sleeba
-    subtitle: "I am a math graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my Master's thesis, I studied Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently I am working on operator algebras and exploring if I can extend the notion of classical peak points to quantum channels with [Dr. P Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP). Besides math, I am interested in computer programming and Linux. You can find some of my projects in my GitHub repositories."
+    subtitle: "I am a math graduate from [IISER Thiruvananthapuram](https://iisertvm.ac.in). As part of my Master's thesis, I studied Fourier analysis under the supervision of [Dr. P Devaraj](https://iisertvm.ac.in/faculty/devarajp). Currently I am working on operator algebras and exploring boundary representations of ternary rings of operators with [Dr. P Shankar](https://iqac.cusat.ac.in/Web/profile_view/433/Dr.SHANKARP). I am also interested in entanglement breaking maps in connection with the PPT conjecture. Besides math, I am interested in computer programming, Linux and FOSS."
     imageUrl: "profile-old.png"
     imageWidth: 160
     imageHeight: 160
