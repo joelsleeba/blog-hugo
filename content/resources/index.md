@@ -57,6 +57,11 @@ editPost:
  - [Linux From Scratch](https://www.linuxfromscratch.org/). _If you want to truly master the art_
  - [MOOC.fi](https://www.mooc.fi/en) checkout their _Introduction to Programming_ course hosted every year.
 
-# Cool people websites
+# Cool projects and websites
+- [$\pi$-Base](https://topology.pi-base.org/) A community database of topological counterexamples.
+- [$\mathbb{C} o \delta\epsilon 4 \mathrm{M}\alpha th$](https://code4math.org/) 'Consortium of Digital Ecosystems for Mathematics'
+- [GitHub for Mathematicians](https://g4m.clontz.org/g4m.html)
+- [Lean Community](https://leanprover-community.github.io/)
+- [qubit.guide](https://qubit.guide) Introduction to Quantum Information Science
 - [Arnaldo Rodriguez-Gonzalez](https://aghostinthefigures.com/) _Studying the intersection of mathematics, physical science, and engineering_
 - [Neeldhara Misra](https://www.neeldhara.com)
