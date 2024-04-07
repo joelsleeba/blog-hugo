@@ -8,8 +8,6 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: G-CNGQJBHPWE
-
 minify:
   disableXML: true
   minifyOutput: true
@@ -29,7 +27,11 @@ params:
   keywords: [Joel Sleeba, Blog, Portfolio, PaperMod]
   author: Joel Sleeba
   # author: ["Me", "You"] # multiple authors
-  images: ["https://pbs.twimg.com/profile_banners/1591060034175504389/1668176669/1500x500","profile.png"]
+  images:
+    [
+      "https://pbs.twimg.com/profile_banners/1591060034175504389/1668176669/1500x500",
+      "profile.png",
+    ]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # auto, dark, light
   disableThemeToggle: true
@@ -112,6 +114,8 @@ params:
       SiteVerificationTag: "XYZabc"
     yandex:
       SiteVerificationTag: "XYZabc"
+    goatcounter:
+      GoatcounterSiteCode: "joelsleeba"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -179,7 +183,6 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
-
 # privacy:
 #   disqus:
 #     disable: false
